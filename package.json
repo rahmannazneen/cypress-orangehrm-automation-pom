@@ -1,0 +1,22 @@
+{
+  "name": "cypress-orangehrm-pom",
+  "version": "1.0.0",
+  "description": "Cypress automation framework using Page Object Model for OrangeHRM",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "automation",
+    "orangehrm",
+    "pom",
+    "qa"
+  ],
+  "author": "Nazneen Rahman",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^14.3.3"
+  }
+}
