@@ -6,7 +6,6 @@ This project automates the UI flow of the [OrangeHRM Demo](https://opensource-de
 
 ## 📁 Project Structure
 
-![Alt Text](https://github.com/user-attachments/assets/43008efb-b075-4b48-bfb0-70efca2195b9)
 ```
 cypress/
 ├── e2e/                          # ✅ All test files go here
@@ -22,7 +21,8 @@ cypress/
 │
 cypress.config.js                 # ✅ Main configuration for Cypress
 ```
- ⚙️ Cypress Configuration (cypress.config.js)
+
+## ⚙️ Cypress Configuration (cypress.config.js)
 The following key configurations are set up in the cypress.config.js file:
 
 ![Alt Text](https://github.com/user-attachments/assets/f0bc2bb1-cc64-495c-9252-8f995543438c)
