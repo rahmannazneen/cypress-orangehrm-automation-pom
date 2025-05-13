@@ -65,4 +65,23 @@ To understand how to set up and run Cypress tests effectively, please follow the
 
 ✅ Cypress config is properly set with baseUrl, specPattern, and supportFile
 
+## 🤝 Contribution
+Contributions are welcome!
+Feel free to fork this repository to:
+
+* Improve test coverage
+
+* Add new test scenarios
+
+* Optimize and enhance the framework
+
+* Every contribution helps make this project better. 🙌
+
+## 📜 License
+This project is open-source and available for public use under the MIT License.
+
+## 👩‍💻 Author
+rahmannazneen
+Passionate about test automation, clean code, and building scalable QA frameworks.
+
 
