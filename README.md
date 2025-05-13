@@ -82,6 +82,7 @@ This project is open-source and available for public use under the MIT License.
 
 ## 👩‍💻 Author
 rahmannazneen
+
 Passionate about test automation, clean code, and building scalable QA frameworks.
 
 
