@@ -7,7 +7,7 @@ This project automates the UI flow of the [OrangeHRM Demo](https://opensource-de
 ## 📁 Project Structure
 
 ![Alt Text](https://github.com/user-attachments/assets/43008efb-b075-4b48-bfb0-70efca2195b9)
-
+```
 cypress/
 ├── e2e/                          # ✅ All test files go here
 │   └── loginTest.spec.js         # ✅ Your test file (must end with .spec.js)
@@ -21,13 +21,13 @@ cypress/
 │       └── addUserPage.js        # Add user functionality object
 │
 cypress.config.js                 # ✅ Main configuration for Cypress
-
+```
  ⚙️ Cypress Configuration (cypress.config.js)
 The following key configurations are set up in the cypress.config.js file:
 
 ![Alt Text](https://github.com/user-attachments/assets/f0bc2bb1-cc64-495c-9252-8f995543438c)
 
-🧪 How to Run the Tests
+## 🧪 How to Run the Tests
 
 
 ✅ Features Covered
@@ -39,7 +39,7 @@ The following key configurations are set up in the cypress.config.js file:
 
 * Search and Verify New User
 
-🧱 Tools & Technologies
+## 🧱 Tools & Technologies
 
  * Cypress (JavaScript End-to-End Testing Framework)
 
@@ -47,7 +47,7 @@ The following key configurations are set up in the cypress.config.js file:
 
 * Node.js & npm
 
-📌 Best Practices Followed
+## 📌 Best Practices Followed
 
 ✅ Page Object Model for clear separation of concerns
 
@@ -57,7 +57,7 @@ The following key configurations are set up in the cypress.config.js file:
 
 ✅ Cypress config properly set with baseUrl, specPattern, and supportFile
 
-📌 Notes
+## 📌 Notes
 
 * Page-level logic is abstracted using reusable classes in support/pages/.
 
