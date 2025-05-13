@@ -6,10 +6,15 @@ describe('OrangeHRM Login Test', () => {
   it('should log in successfully with valid credentials', () => {
     cy.visit('/');
     loginPage.login('Admin', 'admin123');
+    cy.wait(2000);
+    cy.screenshot("Dashboard");
     pimPage.goToPimPage();
     cy.wait(2000);
     pimPage.clickAddEmployee();
     addEmployeePage.insertEmployee('QA', 'Nazneen', 'Bughunter');
+    cy.screenshot("Add Employee");
+    cy.get('.oxd-userdropdown-name').click();
+    cy.contains('Logout').click();
 
   });
 });
