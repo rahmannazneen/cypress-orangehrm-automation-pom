@@ -24,8 +24,24 @@ cypress.config.js                 # ✅ Main configuration for Cypress
 
 ## ⚙️ Cypress Configuration (cypress.config.js)
 The following key configurations are set up in the cypress.config.js file:
+```
+const { defineConfig } = require("cypress");
 
-![Alt Text](https://github.com/user-attachments/assets/f0bc2bb1-cc64-495c-9252-8f995543438c)
+module.exports = defineConfig({
+  e2e: {
+    baseUrl: "https://opensource-demo.orangehrmlive.com",
+    setupNodeEvents(on, config) {
+      // You can add event listeners here if needed
+    },
+    specPattern: "cypress/e2e/**/*.spec.js",
+    supportFile: "cypress/support/e2e.js",
+  },
+  video: true,                   // ✔️ Video recording is ON
+  screenshotOnRunFailure: true, // ✔️ Screenshot on failure is ON
+  videosFolder: 'cypress/videos', // Custom folder for video recordings
+  screenshotsFolder: 'cypress/screenshots', // Custom folder for screenshots
+});
+```
 
 ## 🧪 How to Run the Tests
 To understand how to set up and run Cypress tests effectively, please follow the step-by-step guide provided in the repository below:
