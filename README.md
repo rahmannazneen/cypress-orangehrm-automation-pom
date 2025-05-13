@@ -6,24 +6,24 @@ This project is an automated UI test suite for OrangeHRM using Cypress with the 
 
 
 ✅ Features Covered
-Login to OrangeHRM (Admin)
+* Login to OrangeHRM (Admin)
 
-Add New Employee (PIM Module)
+* Add New Employee (PIM Module)
 
-Create System User (Admin Module)
+* Create System User (Admin Module)
 
-Search and Verify New User
+* Search and Verify New User
 
 🧱 Technologies Used
-Cypress
+* Cypress
 
-JavaScript (ES6)
+* JavaScript (ES6)
 
-Page Object Model (POM) Design Pattern
+* Page Object Model (POM) Design Pattern
 
 📌 Notes
-Page-level logic is abstracted using reusable classes in support/pages/.
+* Page-level logic is abstracted using reusable classes in support/pages/.
 
-Test files in e2e/ call these classes to interact with the application.
+* Test files in e2e/ call these classes to interact with the application.
 
-Tests run on the OrangeHRM Demo Site.
+* Tests run on the OrangeHRM Demo Site.
