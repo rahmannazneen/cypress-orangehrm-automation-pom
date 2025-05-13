@@ -33,42 +33,16 @@ To understand how to set up and run Cypress tests effectively, please follow the
 🔗 [Cypress Zero to Hero Guide](https://github.com/rahmannazneen/cypress-zero-to-hero)
 
 ## ✨ Key Feature Workflow
-This test scenario demonstrates a complete flow from logging into the OrangeHRM system as an admin, adding a new employee, and logging out — with screenshots captured after each major action.
 
-🔐 1. Login to OrangeHRM (Admin)
-* Opens the OrangeHRM login page
+🔐 Log in to OrangeHRM as Admin
 
-* Logs in using Admin credentials
+👤 Navigate to the PIM module
 
-👤 2. Visit the PIM Module
-* Navigates to the PIM (Personal Information Management) module from the dashboard
+➕ Add a new employee with first, middle, and last name
 
-* Prepares to add a new employee
+📸 Capture screenshots after major actions
 
-➕ 3. Add a New Employee
-* Enter First Name, Middle Name, and Last Name for the new employee
-
-* Saves the employee profile
-
-* Verifies redirection to the Personal Details page
-
-📸 4. Capture Screenshots After Actions
-* Takes screenshots after:
-
-* Successful login
-
-* Navigating to PIM
-
-* Adding an employee
-
-* Each critical step assists in debugging and documentation
-
-🚪 5. Log out of the System
-* Opens the top-right menu
-
-* Clicks Logout to exit the system securely
-
-* Ensures the user is redirected back to the login page
+🚪 Log out securely from the system
 
 
 
