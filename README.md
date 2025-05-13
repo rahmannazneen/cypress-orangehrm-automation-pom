@@ -28,6 +28,9 @@ The following key configurations are set up in the cypress.config.js file:
 ![Alt Text](https://github.com/user-attachments/assets/f0bc2bb1-cc64-495c-9252-8f995543438c)
 
 ## 🧪 How to Run the Tests
+To understand how to set up and run Cypress tests effectively, please follow the step-by-step guide provided in the repository below:
+
+🔗 Cypress Zero to Hero Guide
 
 ## ✨ Key Feature Workflow
 This test scenario demonstrates a complete flow from logging into the OrangeHRM system as an admin, adding a new employee, and logging out — with screenshots captured after each major action.
@@ -67,6 +70,8 @@ This test scenario demonstrates a complete flow from logging into the OrangeHRM 
 
 * Ensures the user is redirected back to the login page
 
+
+
 ## 🧱 Tools & Technologies
 
  * Cypress (JavaScript End-to-End Testing Framework)
@@ -74,6 +79,7 @@ This test scenario demonstrates a complete flow from logging into the OrangeHRM 
 * Page Object Model (for test code reusability and clarity)
 
 * Node.js & npm
+
 
 ## 📌 Best Practices Followed
 
