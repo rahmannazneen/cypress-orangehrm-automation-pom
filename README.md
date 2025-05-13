@@ -24,6 +24,7 @@ cypress.config.js                 # ✅ Main configuration for Cypress
 
 ## ⚙️ Cypress Configuration (cypress.config.js)
 The following key configurations are set up in the cypress.config.js file:
+
 ```
 const { defineConfig } = require("cypress");
 
