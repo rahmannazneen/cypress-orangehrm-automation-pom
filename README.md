@@ -30,7 +30,7 @@ The following key configurations are set up in the cypress.config.js file:
 ## 🧪 How to Run the Tests
 To understand how to set up and run Cypress tests effectively, please follow the step-by-step guide provided in the repository below:
 
-🔗 Cypress Zero to Hero Guide
+🔗 [Cypress Zero to Hero Guide](https://github.com/rahmannazneen/cypress-zero-to-hero)
 
 ## ✨ Key Feature Workflow
 This test scenario demonstrates a complete flow from logging into the OrangeHRM system as an admin, adding a new employee, and logging out — with screenshots captured after each major action.
