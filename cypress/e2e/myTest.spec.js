@@ -11,6 +11,7 @@ describe('OrangeHRM Login Test', () => {
     pimPage.goToPimPage();
     cy.wait(2000);
     pimPage.clickAddEmployee();
+    cy.screenshot("Logo");
     addEmployeePage.insertEmployee('QA', 'Nazneen', 'Bughunter');
     cy.screenshot("Add Employee");
     cy.get('.oxd-userdropdown-name').click();
