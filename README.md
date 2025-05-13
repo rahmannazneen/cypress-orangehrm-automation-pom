@@ -29,15 +29,43 @@ The following key configurations are set up in the cypress.config.js file:
 
 ## 🧪 How to Run the Tests
 
+## ✨ Key Feature Workflow
+This test scenario demonstrates a complete flow from logging into the OrangeHRM system as an admin, adding a new employee, and logging out — with screenshots captured after each major action.
 
-✅ Features Covered
-* Login to OrangeHRM (Admin)
+🔐 1. Login to OrangeHRM (Admin)
+* Opens the OrangeHRM login page
 
-* Add New Employee (PIM Module)
+* Logs in using Admin credentials
 
-* Create System User (Admin Module)
+👤 2. Visit the PIM Module
+* Navigates to the PIM (Personal Information Management) module from the dashboard
 
-* Search and Verify New User
+* Prepares to add a new employee
+
+➕ 3. Add a New Employee
+* Enter First Name, Middle Name, and Last Name for the new employee
+
+* Saves the employee profile
+
+* Verifies redirection to the Personal Details page
+
+📸 4. Capture Screenshots After Actions
+* Takes screenshots after:
+
+* Successful login
+
+* Navigating to PIM
+
+* Adding an employee
+
+* Each critical step assists in debugging and documentation
+
+🚪 5. Log out of the System
+* Opens the top-right menu
+
+* Clicks Logout to exit the system securely
+
+* Ensures the user is redirected back to the login page
 
 ## 🧱 Tools & Technologies
 
@@ -55,12 +83,6 @@ The following key configurations are set up in the cypress.config.js file:
 
 ✅ Reusable selectors and actions in support/pages
 
-✅ Cypress config properly set with baseUrl, specPattern, and supportFile
+✅ Cypress config is properly set with baseUrl, specPattern, and supportFile
 
-## 📌 Notes
 
-* Page-level logic is abstracted using reusable classes in support/pages/.
-
-* Test files in e2e/ call these classes to interact with the application.
-
-* Tests run on the OrangeHRM Demo Site.
